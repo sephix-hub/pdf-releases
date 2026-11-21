@@ -125,7 +125,7 @@ Aucun droit administrateur n'est nécessaire. Les versions suivantes sont propos
 ---
 
 <p align="center">
-  © 2026 Noé SUIVENG — Tous droits réservés.<br>
+  © 2026 SEPHIX — Tous droits réservés.<br>
   Logiciel propriétaire, gratuit pour un usage autorisé par l'auteur. Code source non public.<br>
   Rendu PDF par PDFium (Google, licence BSD). Licences des composants tiers : menu <i>Aide → À propos</i>.
 </p>
