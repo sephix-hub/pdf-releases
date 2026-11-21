@@ -1,24 +1,30 @@
 {
-  "version": "0.6.2",
-  "notes": "Correction : ouverture des PDF depuis un NAS ou un dossier réseau quand PDF est déjà ouvert.",
+  "version": "0.6.3",
+  "notes": "Nouvelle version installation (setup) pour les PC personnels, en plus de la version portable.",
   "assets": [
     {
       "name": "PDF.exe",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.2/PDF.exe",
-      "size": 18225664,
-      "sha256": "d14c0017420807d489d5d425afca19f8c22624bb79d718a6a783a52364184510"
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.3/PDF.exe",
+      "size": 18222080,
+      "sha256": "41e67165f291053cd0b5b0ad2cc591a99dc9b1fbb5a55969797f14d34efda645"
     },
     {
       "name": "pdfium.dll",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.2/pdfium.dll",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.3/pdfium.dll",
       "size": 7586816,
       "sha256": "4b0dec92555d69437bef0df37be630181ab3e83a6823ca264ede355a4f2ef994"
     },
     {
-      "name": "PDF-v0.6.2-win64.zip",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.2/PDF-v0.6.2-win64.zip",
-      "size": 11240342,
-      "sha256": "9e83872877847e6ae72a4325dd4e7d57409aa759bcbe069b376642ae81da3ec0"
+      "name": "PDF-v0.6.3-portable.zip",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.3/PDF-v0.6.3-portable.zip",
+      "size": 11241089,
+      "sha256": "88f5ef96d3140f0bd5d68fc7f45ffc5b3de957f3348f4ced8814e3113e3fcf2d"
+    },
+    {
+      "name": "PDF-v0.6.3-installation.exe",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.3/PDF-v0.6.3-installation.exe",
+      "size": 8543869,
+      "sha256": "ed6c463c41f72062986e8798dc1cf31a101f21920cbc128a2e7fdcc3cf7646d7"
     }
   ]
 }

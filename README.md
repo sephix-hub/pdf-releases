@@ -10,8 +10,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.2/PDF-v0.6.2-win64.zip"><b>⬇ Télécharger PDF v0.6.2 pour Windows</b></a>
-  &nbsp;·&nbsp; Windows 10 / 11 (64 bits) &nbsp;·&nbsp; 11 Mo &nbsp;·&nbsp; sans installation
+  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.3/PDF-v0.6.3-installation.exe"><b>⬇ Installer PDF v0.6.3</b></a> (PC personnel)
+  &nbsp;·&nbsp;
+  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.3/PDF-v0.6.3-portable.zip"><b>⬇ Version portable</b></a> (PC d'entreprise)
+  <br>Windows 10 / 11 (64 bits) &nbsp;·&nbsp; sans droits administrateur
 </p>
 
 <p align="center"><img src="docs/accueil.png" width="860" alt="Écran d'accueil"></p>
@@ -99,15 +101,30 @@ le fichier n'est pas modifié.
 
 ## Installer
 
-1. Télécharge **[PDF-v0.6.2-win64.zip](https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.2/PDF-v0.6.2-win64.zip)**.
+Deux versions du même logiciel, avec les mêmes fonctions et les mêmes mises à jour.
+
+### Version installation — PC personnel
+
+1. Télécharge **[PDF-v0.6.3-installation.exe](https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.3/PDF-v0.6.3-installation.exe)** et lance-le.
+2. Si Windows affiche « Windows a protégé votre ordinateur » : *Informations complémentaires* → *Exécuter quand même*.
+3. Suivant, Suivant… : PDF s'installe dans ton compte Windows, avec un raccourci dans le menu Démarrer
+   (et sur le Bureau si tu le coches).
+
+PDF apparaît ensuite dans **Paramètres → Applications installées**, d'où on peut le désinstaller,
+et il est proposé dans les applications par défaut pour les fichiers .pdf.
+
+### Version portable — PC d'entreprise
+
+1. Télécharge **[PDF-v0.6.3-portable.zip](https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.3/PDF-v0.6.3-portable.zip)**.
 2. Clic droit sur le zip → *Propriétés* → coche **Débloquer** → *OK*, puis extrais-le.
 3. Range `PDF.exe` et `pdfium.dll` **dans le même dossier** (par exemple `Documents\Outils\PDF`) et lance `PDF.exe`.
 4. Pour ouvrir tous tes PDF avec : menu **Fichier → Ouvrir mes PDF avec ce logiciel**, puis choisis « PDF » dans la fenêtre de Windows.
 
-Aucun droit administrateur n'est nécessaire. Les versions suivantes sont proposées directement dans le logiciel.
+Rien n'est installé : on peut le copier sur une clé USB ou le supprimer en effaçant le dossier.
+Le fichier `LISEZMOI-INFORMATIQUE.md` du zip décrit précisément ce que fait le programme
+(fichiers écrits, réseau, registre) pour faciliter son autorisation par le service informatique.
 
-**PC d'entreprise** : le fichier `LISEZMOI-INFORMATIQUE.md` du zip décrit précisément ce que fait le programme
-(fichiers écrits, réseau, registre) pour faciliter son autorisation.
+Aucune des deux versions ne demande de droits administrateur. Les versions suivantes sont proposées directement dans le logiciel.
 
 ---
 
@@ -115,7 +132,8 @@ Aucun droit administrateur n'est nécessaire. Les versions suivantes sont propos
 
 | Version | Principales nouveautés |
 |---|---|
-| **0.6.2** | Ouverture des PDF depuis un NAS / dossier réseau corrigée |
+| **0.6.3** | Nouvelle version installation pour PC personnel, à côté de la version portable |
+| 0.6.2 | Ouverture des PDF depuis un NAS / dossier réseau corrigée |
 | 0.6.1 | Retour du réglage « Ouvrir mes PDF avec ce logiciel » |
 | 0.6 | Comptage des blocs AutoCAD, calques, accrochage des mesures, détection de l'échelle, comparaison recalée, mises à jour intégrées |
 | 0.5 | Comparaison de versions, mesures avancées et export Excel, compression, liste des annotations |
