@@ -5,95 +5,95 @@
 <h1 align="center">PDF</h1>
 
 <p align="center">
-  <b>Le lecteur PDF pensé pour les bureaux d'études.</b><br>
-  Plans AutoCAD, traceur, métrés, comptage de blocs, comparaison d'indices… dans un seul petit logiciel,<br>
-  sans installation et sans droits administrateur.
+  <b>Un lecteur et éditeur PDF simple, rapide et complet, pour tout le monde.</b><br>
+  Lire, annoter, signer, modifier, organiser, imprimer… et des outils avancés pour ceux qui en ont besoin.
 </p>
 
 <p align="center">
   <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.1/PDF-v0.6.1-win64.zip"><b>⬇ Télécharger PDF v0.6.1 pour Windows</b></a>
-  &nbsp;·&nbsp; Windows 10 / 11 (64 bits) &nbsp;·&nbsp; 11 Mo
+  &nbsp;·&nbsp; Windows 10 / 11 (64 bits) &nbsp;·&nbsp; 11 Mo &nbsp;·&nbsp; sans installation
 </p>
-
----
-
-## Pourquoi PDF ?
-
-Au quotidien, un bureau d'études passe son temps sur des PDF : plans d'architecte, plans d'exécution,
-indices successifs, notices, DOE… Les lecteurs PDF classiques sont faits pour lire des documents texte,
-pas des plans de 1,80 m. **PDF** a été écrit par un projeteur, pour les projeteurs :
-
-- **Rapide sur les gros plans** : même un plan de 1800 × 900 mm s'ouvre, se zoome et s'imprime sans ramer.
-- **Portable** : deux fichiers dans un dossier, aucun installeur, aucun droit administrateur. Il marche sur un PC verrouillé.
-- **Simple** : un ruban comme Word, de grosses icônes avec leur nom, une bulle d'aide sur chaque bouton,
-  un bandeau qui dit quoi faire quand un outil est actif. Le *mode simple* n'affiche que l'essentiel.
-- **Fait pour le métier** : comptage des blocs AutoCAD, calques, comparaison d'indices, mesures à l'échelle,
-  impression traceur… des fonctions qu'on ne trouve d'habitude que dans des logiciels chers.
 
 <p align="center"><img src="docs/accueil.png" width="860" alt="Écran d'accueil"></p>
 
 ---
 
-## Ce que PDF sait faire
+## Fonctionnalités
 
-### 📐 Comparer deux indices d'un plan
-Choisis l'ancien et le nouvel indice : PDF les superpose et montre tout de suite ce qui a changé.
+### 📖 Lire
+- Ouverture rapide, même des très gros fichiers.
+- **Onglets** ; un onglet glissé hors de la fenêtre s'ouvre dans une **nouvelle fenêtre** (pratique sur deux écrans).
+- Défilement continu ou **page par page**, une ou deux pages, zoom jusqu'à 6400 %.
+- **Recherche** dans le texte, signets, miniatures, liens cliquables, plein écran, thème clair ou sombre.
+- **Mode simple** (l'essentiel) ou **mode complet** (tous les outils), au choix.
 
-- **Rouge** = supprimé, **vert** = ajouté, **gris** = inchangé.
-- Chaque zone modifiée est **encadrée en orange** et listée : un clic pour y aller.
-- Si le nouvel indice est **décalé**, PDF le **recale automatiquement** avant de comparer.
+### ✏️ Annoter
+- Surligner, souligner, barrer, ajouter du texte, des notes, des rectangles, cercles, flèches, dessin à main levée.
+- Déplacer, redimensionner, changer la couleur ou l'épaisseur d'une annotation.
+- **Liste des annotations** : toutes les remarques du document, filtre par auteur, recherche, export Excel.
 
-<p align="center"><img src="docs/comparaison.png" width="860" alt="Comparaison de deux indices"></p>
+### ✍️ Signer et valider
+- **Signature** dessinée une fois à la souris (ou image scannée), mémorisée et posée en un clic.
+- **Tampons** prêts à l'emploi (VALIDÉ, VU, REFUSÉ, POUR INFORMATION…) ou personnalisés, avec date et nom.
 
-### 🔢 Compter les blocs AutoCAD
-Prises, RJ45, luminaires, attentes… PDF lit les **calques** du plan exporté d'AutoCAD et compte les blocs tout seul.
+### 🛠 Modifier
+- **Corriger une ligne de texte**, ajouter une **image** ou un logo.
+- **Masquer une zone** : le contenu est réellement supprimé, pas seulement recouvert.
+- **Filigrane**, **numéros de page**, en-têtes et pieds de page.
+- **Recadrer** les pages, **figer** les annotations.
 
-- Coche un calque, ou clique sur un symbole du plan : chaque bloc est **encadré et compté**,
-  rangé par type (prise simple, double, triple…) avec une **vignette**.
-- La **légende et le cartouche** ne sont pas comptés. Tu peux **limiter le comptage à une zone** (une pièce, un niveau).
-- Un bloc compté par erreur ? Un clic pour le retirer.
-- **Export Excel** de tous les plans ouverts : plan, calque, type, quantité.
+### 📄 Pages et fichiers
+- **Organiser les pages** par glisser-déposer, faire pivoter, insérer, extraire, supprimer.
+- **Fusionner** plusieurs PDF, **découper** un PDF, **pages en images**, **images en PDF**.
+- **Compresser** un PDF trop lourd pour un mail : seules les photos sont allégées, le texte reste net.
 
-### 📏 Mesurer et métrer
-- **Distance**, **longueur** d'un tracé (gaine, réseau, cloison), **surface** et périmètre.
-- **Accrochage** aux extrémités, milieux et croisements des traits : des mesures justes sans zoomer à fond.
-- **Échelle** : saisie à la main, **étalonnage** sur une cote connue, ou bouton **« Détecter l'échelle »**
-  qui lit « Échelle 1/50 » dans le cartouche.
-- **Compter** des symboles à la main, par catégories de couleur.
-- Totaux en direct, **export Excel**, et **« Enregistrer dans le PDF »** pour dessiner les cotes dans le plan.
+### 📸 Copier et exporter
+- **Instantané** haute qualité : un clic = la page entière, un glisser = une zone, directement dans le presse-papier.
+- **Copier pour Word** : tout un document dans Word en un clic, une image par page (légère ou qualité maximale).
+- Copie du texte sélectionné.
+
+### 🖨 Imprimer
+- Format choisi automatiquement pour chaque page (un document qui mélange A4 et A3 sort correctement).
+- Couleur ou noir pur, recto verso, très grands formats, **profils** d'impression enregistrés.
+
+---
+
+## Fonctions avancées
+
+Des outils en plus pour ceux qui travaillent sur des plans et des documents techniques.
+Ils restent discrets tant qu'on ne s'en sert pas.
+
+### 📐 Comparer deux versions d'un document
+PDF superpose l'ancienne et la nouvelle version et montre tout de suite ce qui a changé :
+**rouge** = supprimé, **vert** = ajouté, **gris** = inchangé. Chaque modification est encadrée et listée.
+Si la nouvelle version est décalée, elle est **recalée automatiquement**.
+
+<p align="center"><img src="docs/comparaison.png" width="860" alt="Comparaison de deux versions"></p>
+
+### 📏 Mesurer
+- **Distance**, **longueur** d'un tracé, **surface** et périmètre, à l'échelle du document.
+- **Accrochage** aux extrémités, milieux et croisements des traits.
+- Échelle saisie, **étalonnée** sur une cote connue, ou **détectée** dans le texte (« Échelle 1/50 »).
+- **Compter** des symboles à la main, totaux en direct, **export Excel**, mesures enregistrables dans le PDF.
 
 <p align="center"><img src="docs/mesures.png" width="860" alt="Mesures et comptage"></p>
 
+### 🔢 Compter les blocs d'un plan AutoCAD
+Sur un plan exporté d'AutoCAD, PDF compte automatiquement les symboles (prises, luminaires…) par calque et par type,
+avec vignettes, exclusion de la légende, comptage limité à une zone et export Excel.
+
 ### 🗂 Calques
-Affiche ou masque les calques du plan (fond d'architecte, CFO, CFA, cotes, mobilier…), avec une recherche par nom.
-L'impression, les instantanés et les exports suivent ce que tu vois. Le fichier, lui, n'est jamais modifié.
+Afficher ou masquer les calques d'un PDF, avec recherche par nom. L'impression et les exports suivent ce qui est affiché ;
+le fichier n'est pas modifié.
 
-### 🖨 Impression bureau d'études
-- **Format automatique par page** : un dossier qui mélange A4 et A3 sort correctement.
-- **Traceur** au format exact du plan (900 × 3000 mm, etc.).
-- Couleur ou **noir pur**, **recto verso**, et des **profils** enregistrés (« A3 couleur RV », « Traceur 1/50 »…).
+---
 
-### 📸 Instantanés et Word
-- **Instantané** haute qualité (150 ppp par défaut) : un clic = la page entière, un glisser = une zone,
-  directement dans le presse-papier.
-- **Copier pour Word** : tout un PDF de 20 pages dans Word en un clic, une image par page, en image légère ou en **bitmap qualité maximale**.
+## Points forts
 
-### ✏️ Annoter et modifier
-- Surligner, texte, notes, rectangles, cercles, flèches, crayon. Déplacer, redimensionner, changer de couleur.
-- **Tampons** (BON POUR EXÉCUTION, VALIDÉ, VU, REFUSÉ…) avec date et nom, **signature** mémorisée.
-- **Corriger le texte** d'une ligne, **masquer une zone** (caviardage réel), **recadrer**, **filigrane**,
-  **numéros de page**, en-têtes et pieds de page.
-- **Liste des annotations** : toutes les remarques du document, filtre par auteur, export Excel.
-
-### 📄 Pages et fichiers
-- **Organiser les pages** par glisser-déposer, faire pivoter, supprimer, insérer.
-- **Fusionner**, **découper**, **pages en images**, **images en PDF**.
-- **Compresser** un PDF trop lourd pour un mail (seules les photos sont allégées, les traits restent nets).
-
-### 🪟 Confort
-- **Onglets**, et un onglet glissé hors de la fenêtre s'ouvre dans une **nouvelle fenêtre** (pratique sur deux écrans).
-- Défilement continu ou **page par page**, zoom jusqu'à 6400 %, recherche, signets, miniatures.
-- **Mises à jour** proposées dans le logiciel : un bandeau, un clic, c'est fait.
+- **Portable** : deux fichiers dans un dossier, aucun installeur, **aucun droit administrateur**.
+- **Léger et rapide**, même sur de très gros documents.
+- **Simple** : un ruban comme Word, de grosses icônes avec leur nom, une bulle d'aide sur chaque bouton.
+- **Mises à jour** proposées dans le logiciel, en un clic.
 
 ---
 
@@ -106,7 +106,7 @@ L'impression, les instantanés et les exports suivent ce que tu vois. Le fichier
 
 Aucun droit administrateur n'est nécessaire. Les versions suivantes sont proposées directement dans le logiciel.
 
-**Service informatique** : le fichier `LISEZMOI-INFORMATIQUE.md` du zip décrit précisément ce que fait le programme
+**PC d'entreprise** : le fichier `LISEZMOI-INFORMATIQUE.md` du zip décrit précisément ce que fait le programme
 (fichiers écrits, réseau, registre) pour faciliter son autorisation.
 
 ---
@@ -117,7 +117,7 @@ Aucun droit administrateur n'est nécessaire. Les versions suivantes sont propos
 |---|---|
 | **0.6.1** | Retour du réglage « Ouvrir mes PDF avec ce logiciel » |
 | 0.6 | Comptage des blocs AutoCAD, calques, accrochage des mesures, détection de l'échelle, comparaison recalée, mises à jour intégrées |
-| 0.5 | Comparaison d'indices, mesures avancées et export Excel, compression, liste des annotations |
+| 0.5 | Comparaison de versions, mesures avancées et export Excel, compression, liste des annotations |
 | 0.4 | Interface en ruban, signature, tampons, correction de texte, caviardage, organisation des pages, copie vers Word, instantanés plus rapides |
 | 0.3 | Onglets et fenêtres détachables, défilement page par page, icônes avec bulles d'aide |
 
