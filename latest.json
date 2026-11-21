@@ -1,24 +1,24 @@
 {
-  "version": "0.6.0",
-  "notes": "Comptage automatique des blocs AutoCAD, panneau Calques, accrochage des mesures, détection de l'échelle, comparaison recalée, démarrage plus propre sur les PC d'entreprise, mises à jour depuis GitHub, logo rouge.",
+  "version": "0.6.1",
+  "notes": "Retour de « Fichier → Ouvrir mes PDF avec ce logiciel » pour faire de PDF le lecteur par défaut.",
   "assets": [
     {
       "name": "PDF.exe",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.0/PDF.exe",
-      "size": 18219520,
-      "sha256": "d1de228303cf9531982239ab85a63e82c08e322ce638bcf47283529ac9fbb455"
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.1/PDF.exe",
+      "size": 18216448,
+      "sha256": "c83e6fd7f44cae7ec9276d01450dca8dbb4ef0ee36fc350cb4f95833c1f4d5e0"
     },
     {
       "name": "pdfium.dll",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.0/pdfium.dll",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.1/pdfium.dll",
       "size": 7586816,
       "sha256": "4b0dec92555d69437bef0df37be630181ab3e83a6823ca264ede355a4f2ef994"
     },
     {
-      "name": "PDF-v0.6-win64.zip",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.0/PDF-v0.6-win64.zip",
-      "size": 11237851,
-      "sha256": "c22483bb95f79222d708e492a33a8cdad45a79c39f20bb60f5e41a1c8a34c63d"
+      "name": "PDF-v0.6.1-win64.zip",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.1/PDF-v0.6.1-win64.zip",
+      "size": 11241917,
+      "sha256": "bb121d4e5fbad626416b514c65b1b8abe1f337fd37787afaf014b305f150d036"
     }
   ]
 }
