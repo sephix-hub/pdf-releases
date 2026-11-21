@@ -1,24 +1,24 @@
 {
-  "version": "0.6.1",
-  "notes": "Retour de « Fichier → Ouvrir mes PDF avec ce logiciel » pour faire de PDF le lecteur par défaut.",
+  "version": "0.6.2",
+  "notes": "Correction : ouverture des PDF depuis un NAS ou un dossier réseau quand PDF est déjà ouvert.",
   "assets": [
     {
       "name": "PDF.exe",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.1/PDF.exe",
-      "size": 18216448,
-      "sha256": "c83e6fd7f44cae7ec9276d01450dca8dbb4ef0ee36fc350cb4f95833c1f4d5e0"
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.2/PDF.exe",
+      "size": 18225664,
+      "sha256": "d14c0017420807d489d5d425afca19f8c22624bb79d718a6a783a52364184510"
     },
     {
       "name": "pdfium.dll",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.1/pdfium.dll",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.2/pdfium.dll",
       "size": 7586816,
       "sha256": "4b0dec92555d69437bef0df37be630181ab3e83a6823ca264ede355a4f2ef994"
     },
     {
-      "name": "PDF-v0.6.1-win64.zip",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.1/PDF-v0.6.1-win64.zip",
-      "size": 11241917,
-      "sha256": "bb121d4e5fbad626416b514c65b1b8abe1f337fd37787afaf014b305f150d036"
+      "name": "PDF-v0.6.2-win64.zip",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.2/PDF-v0.6.2-win64.zip",
+      "size": 11240342,
+      "sha256": "9e83872877847e6ae72a4325dd4e7d57409aa759bcbe069b376642ae81da3ec0"
     }
   ]
 }

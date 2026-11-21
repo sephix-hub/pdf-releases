@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.1/PDF-v0.6.1-win64.zip"><b>⬇ Télécharger PDF v0.6.1 pour Windows</b></a>
+  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.2/PDF-v0.6.2-win64.zip"><b>⬇ Télécharger PDF v0.6.2 pour Windows</b></a>
   &nbsp;·&nbsp; Windows 10 / 11 (64 bits) &nbsp;·&nbsp; 11 Mo &nbsp;·&nbsp; sans installation
 </p>
 
@@ -99,7 +99,7 @@ le fichier n'est pas modifié.
 
 ## Installer
 
-1. Télécharge **[PDF-v0.6.1-win64.zip](https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.1/PDF-v0.6.1-win64.zip)**.
+1. Télécharge **[PDF-v0.6.2-win64.zip](https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.2/PDF-v0.6.2-win64.zip)**.
 2. Clic droit sur le zip → *Propriétés* → coche **Débloquer** → *OK*, puis extrais-le.
 3. Range `PDF.exe` et `pdfium.dll` **dans le même dossier** (par exemple `Documents\Outils\PDF`) et lance `PDF.exe`.
 4. Pour ouvrir tous tes PDF avec : menu **Fichier → Ouvrir mes PDF avec ce logiciel**, puis choisis « PDF » dans la fenêtre de Windows.
@@ -115,7 +115,8 @@ Aucun droit administrateur n'est nécessaire. Les versions suivantes sont propos
 
 | Version | Principales nouveautés |
 |---|---|
-| **0.6.1** | Retour du réglage « Ouvrir mes PDF avec ce logiciel » |
+| **0.6.2** | Ouverture des PDF depuis un NAS / dossier réseau corrigée |
+| 0.6.1 | Retour du réglage « Ouvrir mes PDF avec ce logiciel » |
 | 0.6 | Comptage des blocs AutoCAD, calques, accrochage des mesures, détection de l'échelle, comparaison recalée, mises à jour intégrées |
 | 0.5 | Comparaison de versions, mesures avancées et export Excel, compression, liste des annotations |
 | 0.4 | Interface en ruban, signature, tampons, correction de texte, caviardage, organisation des pages, copie vers Word, instantanés plus rapides |
