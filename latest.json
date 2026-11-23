@@ -1,30 +1,36 @@
 {
-  "version": "0.6.4",
-  "notes": "Ouverture plus rapide quand on double-clique sur un PDF alors que le logiciel est fermé.",
+  "version": "0.7.0",
+  "notes": "Le logiciel est découpé en un lanceur PDF.exe figé et le cœur pdf_core.dll. Les mises à jour ne remplacent que pdf_core.dll, jamais PDF.exe : l'antivirus ne le rebloque plus à chaque version.",
   "assets": [
     {
       "name": "PDF.exe",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.4/PDF.exe",
-      "size": 18262016,
-      "sha256": "1dfd8dad76393b007844994a1ed008b06de9ccceb6e61240d5dbdab11af522d5"
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.7.0/PDF.exe",
+      "size": 466944,
+      "sha256": "a7a16f6a2a10e627e597ccac5fb3603bde30f9489c6002db971974b3902c01b1"
+    },
+    {
+      "name": "pdf_core.dll",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.7.0/pdf_core.dll",
+      "size": 24365056,
+      "sha256": "590aec909004f090f0fd4faba76bc0ff0f893bfcf82ff86fb03168b4983818f6"
     },
     {
       "name": "pdfium.dll",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.4/pdfium.dll",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.7.0/pdfium.dll",
       "size": 7586816,
       "sha256": "4b0dec92555d69437bef0df37be630181ab3e83a6823ca264ede355a4f2ef994"
     },
     {
-      "name": "PDF-v0.6.4-portable.zip",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.4/PDF-v0.6.4-portable.zip",
-      "size": 11253145,
-      "sha256": "fea28d942a8e7d03a79c1f0e604ce184eaab91cbc7b5ccb1d793add1c6622d63"
+      "name": "PDF-v0.7.0-portable.zip",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.7.0/PDF-v0.7.0-portable.zip",
+      "size": 13998624,
+      "sha256": "fa32fbcb0b38ce6f57c461e4bd49ad540551fbffac02d9f7d43f588c0af00659"
     },
     {
-      "name": "PDF-v0.6.4-installation.exe",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.4/PDF-v0.6.4-installation.exe",
-      "size": 8556294,
-      "sha256": "a7054f312d5676da1dc2ba88a7be3dd558a819a001908b98904598f6ee463fd5"
+      "name": "PDF-v0.7.0-installation.exe",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.7.0/PDF-v0.7.0-installation.exe",
+      "size": 10568686,
+      "sha256": "459b9617b1170ca9d0a8dd30b41483b311e56659d727c47b87f8baf1e91c6f42"
     }
   ]
 }
