@@ -1,30 +1,30 @@
 {
-  "version": "0.6.3",
-  "notes": "Nouvelle version installation (setup) pour les PC personnels, en plus de la version portable.",
+  "version": "0.6.4",
+  "notes": "Ouverture plus rapide quand on double-clique sur un PDF alors que le logiciel est fermé.",
   "assets": [
     {
       "name": "PDF.exe",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.3/PDF.exe",
-      "size": 18222080,
-      "sha256": "41e67165f291053cd0b5b0ad2cc591a99dc9b1fbb5a55969797f14d34efda645"
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.4/PDF.exe",
+      "size": 18262016,
+      "sha256": "1dfd8dad76393b007844994a1ed008b06de9ccceb6e61240d5dbdab11af522d5"
     },
     {
       "name": "pdfium.dll",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.3/pdfium.dll",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.4/pdfium.dll",
       "size": 7586816,
       "sha256": "4b0dec92555d69437bef0df37be630181ab3e83a6823ca264ede355a4f2ef994"
     },
     {
-      "name": "PDF-v0.6.3-portable.zip",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.3/PDF-v0.6.3-portable.zip",
-      "size": 11241089,
-      "sha256": "88f5ef96d3140f0bd5d68fc7f45ffc5b3de957f3348f4ced8814e3113e3fcf2d"
+      "name": "PDF-v0.6.4-portable.zip",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.4/PDF-v0.6.4-portable.zip",
+      "size": 11253145,
+      "sha256": "fea28d942a8e7d03a79c1f0e604ce184eaab91cbc7b5ccb1d793add1c6622d63"
     },
     {
-      "name": "PDF-v0.6.3-installation.exe",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.3/PDF-v0.6.3-installation.exe",
-      "size": 8543869,
-      "sha256": "ed6c463c41f72062986e8798dc1cf31a101f21920cbc128a2e7fdcc3cf7646d7"
+      "name": "PDF-v0.6.4-installation.exe",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.4/PDF-v0.6.4-installation.exe",
+      "size": 8556294,
+      "sha256": "a7054f312d5676da1dc2ba88a7be3dd558a819a001908b98904598f6ee463fd5"
     }
   ]
 }

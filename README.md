@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.3/PDF-v0.6.3-installation.exe"><b>⬇ Installer PDF v0.6.3</b></a> (PC personnel)
+  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.4/PDF-v0.6.4-installation.exe"><b>⬇ Installer PDF v0.6.4</b></a> (PC personnel)
   &nbsp;·&nbsp;
-  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.3/PDF-v0.6.3-portable.zip"><b>⬇ Version portable</b></a> (PC d'entreprise)
+  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.4/PDF-v0.6.4-portable.zip"><b>⬇ Version portable</b></a> (PC d'entreprise)
   <br>Windows 10 / 11 (64 bits) &nbsp;·&nbsp; sans droits administrateur
 </p>
 
@@ -105,7 +105,7 @@ Deux versions du même logiciel, avec les mêmes fonctions et les mêmes mises �
 
 ### Version installation — PC personnel
 
-1. Télécharge **[PDF-v0.6.3-installation.exe](https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.3/PDF-v0.6.3-installation.exe)** et lance-le.
+1. Télécharge **[PDF-v0.6.4-installation.exe](https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.4/PDF-v0.6.4-installation.exe)** et lance-le.
 2. Si Windows affiche « Windows a protégé votre ordinateur » : *Informations complémentaires* → *Exécuter quand même*.
 3. Suivant, Suivant… : PDF s'installe dans ton compte Windows, avec un raccourci dans le menu Démarrer
    (et sur le Bureau si tu le coches).
@@ -115,7 +115,7 @@ et il est proposé dans les applications par défaut pour les fichiers .pdf.
 
 ### Version portable — PC d'entreprise
 
-1. Télécharge **[PDF-v0.6.3-portable.zip](https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.3/PDF-v0.6.3-portable.zip)**.
+1. Télécharge **[PDF-v0.6.4-portable.zip](https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.4/PDF-v0.6.4-portable.zip)**.
 2. Clic droit sur le zip → *Propriétés* → coche **Débloquer** → *OK*, puis extrais-le.
 3. Range `PDF.exe` et `pdfium.dll` **dans le même dossier** (par exemple `Documents\Outils\PDF`) et lance `PDF.exe`.
 4. Pour ouvrir tous tes PDF avec : menu **Fichier → Ouvrir mes PDF avec ce logiciel**, puis choisis « PDF » dans la fenêtre de Windows.
@@ -132,7 +132,8 @@ Aucune des deux versions ne demande de droits administrateur. Les versions suiva
 
 | Version | Principales nouveautés |
 |---|---|
-| **0.6.3** | Nouvelle version installation pour PC personnel, à côté de la version portable |
+| **0.6.4** | Ouverture plus rapide d'un PDF quand le logiciel est fermé |
+| 0.6.3 | Nouvelle version installation pour PC personnel, à côté de la version portable |
 | 0.6.2 | Ouverture des PDF depuis un NAS / dossier réseau corrigée |
 | 0.6.1 | Retour du réglage « Ouvrir mes PDF avec ce logiciel » |
 | 0.6 | Comptage des blocs AutoCAD, calques, accrochage des mesures, détection de l'échelle, comparaison recalée, mises à jour intégrées |
