@@ -1,36 +1,30 @@
 {
-  "version": "0.7.1",
-  "notes": "Le lanceur PDF.exe relie pdf_core.dll de façon normale (chargement au démarrage). Corrige l'alerte antivirus qui revenait à chaque ouverture.",
+  "version": "0.8.0",
+  "notes": "Retour à un seul fichier PDF.exe. Les mises à jour se font par réinstallation : PDF télécharge le programme d'installation et propose un bouton pour l'installer.",
   "assets": [
     {
       "name": "PDF.exe",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.7.1/PDF.exe",
-      "size": 450048,
-      "sha256": "43e75d06d8524a32b97e7a209f3f987dfd1b3a0e979d1648f6026c66f47ebaae"
-    },
-    {
-      "name": "pdf_core.dll",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.7.1/pdf_core.dll",
-      "size": 24353792,
-      "sha256": "c2e3b616aa5f77ca3cd3a9b57a9e35036b192bb4934001e95eefaa85f3a7e95e"
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.8.0/PDF.exe",
+      "size": 18285568,
+      "sha256": "b27720cf1ca8e42435b67efff2cdfeb753c7df53006d1f306bd0234c7f6fa91a"
     },
     {
       "name": "pdfium.dll",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.7.1/pdfium.dll",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.8.0/pdfium.dll",
       "size": 7586816,
       "sha256": "4b0dec92555d69437bef0df37be630181ab3e83a6823ca264ede355a4f2ef994"
     },
     {
-      "name": "PDF-v0.7.1-portable.zip",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.7.1/PDF-v0.7.1-portable.zip",
-      "size": 13987331,
-      "sha256": "f521bec4de57b89ff682912a84d25a2d90b44044653dc7219cd33a41082007f5"
+      "name": "PDF-v0.8.0-portable.zip",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.8.0/PDF-v0.8.0-portable.zip",
+      "size": 11258144,
+      "sha256": "cac1a175738ed98ab42768058b0639a8975eb8f31b748eaf4b6009832e06248b"
     },
     {
-      "name": "PDF-v0.7.1-installation.exe",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.7.1/PDF-v0.7.1-installation.exe",
-      "size": 10557883,
-      "sha256": "63d3176d6b89382920047bb87f35255311320ab8ddfedcc43d0d962bd8ce53c3"
+      "name": "PDF-v0.8.0-installation.exe",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.8.0/PDF-v0.8.0-installation.exe",
+      "size": 8550843,
+      "sha256": "290dce5660740197a91d676163a2de2279a6cc83a22761dc1e6a843470366c00"
     }
   ]
 }

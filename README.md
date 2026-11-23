@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.7.1/PDF-v0.7.1-installation.exe"><b>⬇ Installer PDF v0.7.1</b></a> (PC personnel)
+  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.8.0/PDF-v0.8.0-installation.exe"><b>⬇ Installer PDF v0.8.0</b></a> (PC personnel)
   &nbsp;·&nbsp;
-  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.7.1/PDF-v0.7.1-portable.zip"><b>⬇ Version portable</b></a> (PC d'entreprise)
+  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.8.0/PDF-v0.8.0-portable.zip"><b>⬇ Version portable</b></a> (PC d'entreprise)
   <br>Windows 10 / 11 (64 bits) &nbsp;·&nbsp; sans droits administrateur
 </p>
 
@@ -105,7 +105,7 @@ Deux versions du même logiciel, avec les mêmes fonctions et les mêmes mises �
 
 ### Version installation — PC personnel
 
-1. Télécharge **[PDF-v0.7.1-installation.exe](https://github.com/sephix-hub/pdf-releases/raw/main/v0.7.1/PDF-v0.7.1-installation.exe)** et lance-le.
+1. Télécharge **[PDF-v0.8.0-installation.exe](https://github.com/sephix-hub/pdf-releases/raw/main/v0.8.0/PDF-v0.8.0-installation.exe)** et lance-le.
 2. Si Windows affiche « Windows a protégé votre ordinateur » : *Informations complémentaires* → *Exécuter quand même*.
 3. Suivant, Suivant… : PDF s'installe dans ton compte Windows, avec un raccourci dans le menu Démarrer
    (et sur le Bureau si tu le coches).
@@ -115,9 +115,9 @@ et il est proposé dans les applications par défaut pour les fichiers .pdf.
 
 ### Version portable — PC d'entreprise
 
-1. Télécharge **[PDF-v0.7.1-portable.zip](https://github.com/sephix-hub/pdf-releases/raw/main/v0.7.1/PDF-v0.7.1-portable.zip)**.
+1. Télécharge **[PDF-v0.8.0-portable.zip](https://github.com/sephix-hub/pdf-releases/raw/main/v0.8.0/PDF-v0.8.0-portable.zip)**.
 2. Clic droit sur le zip → *Propriétés* → coche **Débloquer** → *OK*, puis extrais-le.
-3. Range `PDF.exe`, `pdf_core.dll` et `pdfium.dll` **dans le même dossier** (par exemple `Documents\Outils\PDF`) et lance `PDF.exe`.
+3. Range `PDF.exe` et `pdfium.dll` **dans le même dossier** (par exemple `Documents\Outils\PDF`) et lance `PDF.exe`.
 4. Pour ouvrir tous tes PDF avec : menu **Fichier → Ouvrir mes PDF avec ce logiciel**, puis choisis « PDF » dans la fenêtre de Windows.
 
 Rien n'est installé : on peut le copier sur une clé USB ou le supprimer en effaçant le dossier.
@@ -128,9 +128,8 @@ Aucune des deux versions ne demande de droits administrateur. Les versions suiva
 
 ---
 
-> **Vous passez d'une version 0.6 à la 0.7 ?** Réinstallez une fois (version installation ou dossier
-> portable complet) : l'organisation interne du logiciel a changé. Les mises à jour suivantes, elles,
-> se feront toutes seules sans jamais remplacer `PDF.exe`.
+> **Vous venez d'une v0.7 ?** Réinstallez une fois la version 0.8 (le découpage interne des v0.7 a
+> été abandonné). Ensuite, les mises à jour se font depuis le logiciel, en un clic.
 
 ## Historique
 
