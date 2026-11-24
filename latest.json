@@ -1,30 +1,30 @@
 {
-  "version": "0.8.0",
-  "notes": "Retour à un seul fichier PDF.exe. Les mises à jour se font par réinstallation : PDF télécharge le programme d'installation et propose un bouton pour l'installer.",
+  "version": "0.6.3",
+  "notes": "Version stable rétablie. Les versions 0.7 et 0.8 étaient signalées par l'antivirus d'entreprise ; on repart de la 0.6.3, qui fonctionnait.",
   "assets": [
     {
       "name": "PDF.exe",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.8.0/PDF.exe",
-      "size": 18285568,
-      "sha256": "b27720cf1ca8e42435b67efff2cdfeb753c7df53006d1f306bd0234c7f6fa91a"
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.3/PDF.exe",
+      "size": 18222080,
+      "sha256": "41e67165f291053cd0b5b0ad2cc591a99dc9b1fbb5a55969797f14d34efda645"
     },
     {
       "name": "pdfium.dll",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.8.0/pdfium.dll",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.3/pdfium.dll",
       "size": 7586816,
       "sha256": "4b0dec92555d69437bef0df37be630181ab3e83a6823ca264ede355a4f2ef994"
     },
     {
-      "name": "PDF-v0.8.0-portable.zip",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.8.0/PDF-v0.8.0-portable.zip",
-      "size": 11258144,
-      "sha256": "cac1a175738ed98ab42768058b0639a8975eb8f31b748eaf4b6009832e06248b"
+      "name": "PDF-v0.6.3-portable.zip",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.3/PDF-v0.6.3-portable.zip",
+      "size": 11241089,
+      "sha256": "88f5ef96d3140f0bd5d68fc7f45ffc5b3de957f3348f4ced8814e3113e3fcf2d"
     },
     {
-      "name": "PDF-v0.8.0-installation.exe",
-      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.8.0/PDF-v0.8.0-installation.exe",
-      "size": 8550843,
-      "sha256": "290dce5660740197a91d676163a2de2279a6cc83a22761dc1e6a843470366c00"
+      "name": "PDF-v0.6.3-installation.exe",
+      "url": "https://raw.githubusercontent.com/sephix-hub/pdf-releases/main/v0.6.3/PDF-v0.6.3-installation.exe",
+      "size": 8543869,
+      "sha256": "ed6c463c41f72062986e8798dc1cf31a101f21920cbc128a2e7fdcc3cf7646d7"
     }
   ]
 }
