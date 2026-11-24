@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.8.0/PDF-v0.8.0-installation.exe"><b>⬇ Installer PDF v0.8.0</b></a> (PC personnel)
+  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.8.0/PDF-v0.8.0-installation.exe"><b>⬇ Installer PDF — PC perso</b></a> (version 0.8.0)
   &nbsp;·&nbsp;
-  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.8.0/PDF-v0.8.0-portable.zip"><b>⬇ Version portable</b></a> (PC d'entreprise)
+  <a href="https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.3/PDF-v0.6.3-portable.zip"><b>⬇ Version entreprise — portable</b></a> (version 0.6.3)
   <br>Windows 10 / 11 (64 bits) &nbsp;·&nbsp; sans droits administrateur
 </p>
 
@@ -92,51 +92,52 @@ le fichier n'est pas modifié.
 
 ## Points forts
 
-- **Portable** : un dossier à copier, aucun installeur, aucun installeur, **aucun droit administrateur**.
+- **Portable ou installé**, au choix, **sans droit administrateur**.
 - **Léger et rapide**, même sur de très gros documents.
 - **Simple** : un ruban comme Word, de grosses icônes avec leur nom, une bulle d'aide sur chaque bouton.
-- **Mises à jour** proposées dans le logiciel, en un clic.
+- **Deux versions** : installée et à jour pour le PC perso, portable et éprouvée (0.6.3) pour l'entreprise.
 
 ---
 
 ## Installer
 
-Deux versions du même logiciel, avec les mêmes fonctions et les mêmes mises à jour.
+Deux versions selon le poste.
 
-### Version installation — PC personnel
+### PC personnel — installation (dernière version 0.8.0)
+
+C'est la version à jour, avec les dernières améliorations.
 
 1. Télécharge **[PDF-v0.8.0-installation.exe](https://github.com/sephix-hub/pdf-releases/raw/main/v0.8.0/PDF-v0.8.0-installation.exe)** et lance-le.
 2. Si Windows affiche « Windows a protégé votre ordinateur » : *Informations complémentaires* → *Exécuter quand même*.
-3. Suivant, Suivant… : PDF s'installe dans ton compte Windows, avec un raccourci dans le menu Démarrer
-   (et sur le Bureau si tu le coches).
+3. Suivant, Suivant… : PDF s'installe dans ton compte Windows, avec un raccourci dans le menu Démarrer.
 
-PDF apparaît ensuite dans **Paramètres → Applications installées**, d'où on peut le désinstaller,
-et il est proposé dans les applications par défaut pour les fichiers .pdf.
+PDF apparaît dans **Paramètres → Applications installées**. Pour une version plus récente plus tard,
+reviens sur cette page et télécharge le nouvel installateur.
 
-### Version portable — PC d'entreprise
+### PC d'entreprise — portable (version 0.6.3, éprouvée)
 
-1. Télécharge **[PDF-v0.8.0-portable.zip](https://github.com/sephix-hub/pdf-releases/raw/main/v0.8.0/PDF-v0.8.0-portable.zip)**.
+Sur un poste d'entreprise, l'antivirus est beaucoup plus strict. On garde donc la **version 0.6.3**,
+stable et éprouvée, en **portable** (les versions plus récentes y déclenchaient des alertes).
+
+1. Télécharge **[PDF-v0.6.3-portable.zip](https://github.com/sephix-hub/pdf-releases/raw/main/v0.6.3/PDF-v0.6.3-portable.zip)**.
 2. Clic droit sur le zip → *Propriétés* → coche **Débloquer** → *OK*, puis extrais-le.
-3. Range `PDF.exe` et `pdfium.dll` **dans le même dossier** (par exemple `Documents\Outils\PDF`) et lance `PDF.exe`.
-4. Pour ouvrir tous tes PDF avec : menu **Fichier → Ouvrir mes PDF avec ce logiciel**, puis choisis « PDF » dans la fenêtre de Windows.
+3. Range `PDF.exe` et `pdfium.dll` **dans le même dossier** et lance `PDF.exe`.
 
-Rien n'est installé : on peut le copier sur une clé USB ou le supprimer en effaçant le dossier.
-Le fichier `LISEZMOI-INFORMATIQUE.md` du zip décrit précisément ce que fait le programme
-(fichiers écrits, réseau, registre) pour faciliter son autorisation par le service informatique.
+Cette version **ne se met pas à jour toute seule**, volontairement : aucun changement de fichier qui
+réveillerait l'antivirus. Pour la faire autoriser durablement sur le parc, le fichier
+`LISEZMOI-INFORMATIQUE.md` du zip décrit ce que fait le programme (fichiers écrits, réseau, registre)
+pour le service informatique.
 
-Aucune des deux versions ne demande de droits administrateur. Les versions suivantes sont proposées directement dans le logiciel.
+Aucune des deux versions ne demande de droits administrateur.
 
 ---
-
-> **Vous venez d'une v0.7 ?** Réinstallez une fois la version 0.8 (le découpage interne des v0.7 a
-> été abandonné). Ensuite, les mises à jour se font depuis le logiciel, en un clic.
 
 ## Historique
 
 | Version | Principales nouveautés |
 |---|---|
-| **0.6.4** | Ouverture plus rapide d'un PDF quand le logiciel est fermé |
-| 0.6.3 | Nouvelle version installation pour PC personnel, à côté de la version portable |
+| **0.8** · PC perso | Un seul fichier, démarrage plus rapide, mise à jour par réinstallation |
+| **0.6.3** · entreprise | Version éprouvée, conservée pour les postes d'entreprise |
 | 0.6.2 | Ouverture des PDF depuis un NAS / dossier réseau corrigée |
 | 0.6.1 | Retour du réglage « Ouvrir mes PDF avec ce logiciel » |
 | 0.6 | Comptage des blocs AutoCAD, calques, accrochage des mesures, détection de l'échelle, comparaison recalée, mises à jour intégrées |
